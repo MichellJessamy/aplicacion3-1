@@ -1,0 +1,242 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Tercera Aplicacion</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/temasapp3.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/popoca.jpg','imagenes/antiguedad2.jpg','imagenes/ubicacion2.JPG')">
+<div data-role="page" id="Principal" data-theme="c">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+    <h1>Volcan Popocatepetl </h1>
+  </div>
+  <div data-role="main" class="ui-content">
+        <div data-role="collapsible" data-content-theme="false">
+          <h1>Significado "popocatepetl"</h1>
+           <div>
+           <p> En náhuatl: popocatepetl, el cerro que humea"popoca", humear; "tepetl", cerro </p>
+           <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','imagenes/popoca.jpg',1)"><img src="imagenes/volcanpopocatepetl1.jpg" width="860" height="560" id="Image9"></a>
+           <br>
+           </div>
+      </div>
+      </div>
+  <div data-role="main" class="ui-content">
+        <div data-role="collapsible" data-content-theme="false">
+          <h1>Actividad reciente del volcan "popocatepetl"</h1>
+           <div>
+           <p> Abril 12 11:00 h (Abril 12 16:00 GMT) 
+En las últimas 24 horas, por medio de los registros sísmicos del sistema de monitoreo del volcán Popocatépetl, se identificaron 110 exhalaciones de baja intensidad que solo fueron acompañadas por emisiones de vapor de agua, gases y ligeras cantidades de ceniza. Adicionalmente se presentaron 2 explosiones el día de ayer a las 22:21 h y a las 23:28 h. Se tuvo visibilidad parcial y se observó una muy débil emisión de vapor de agua y gas que los vientos dispersaron al noreste. 
+Durante la noche se observó ligera incandescencia que aumentaba al momento de algunas de las exhalaciones. . 
+Desde hoy por la mañana y hasta el momento de este informe se ha observado una ligera emisión de vapor de agua y gas que los vientos dispersan al noreste. 
+Los demás parámetros de monitoreo permanecen sin cambios importantes. 
+El CENAPRED exhorta a NO ACERCARSE al volcán y sobre todo al cráter, por el peligro que implica la caída de fragmentos balísticos. 
+El Semáforo de Alerta Volcánica del Popocatépetl se encuentra en Amarillo Fase 2. 
+Los escenarios previstos para esta fase son: 
+1. Que continúe la actividad explosiva de escala baja a intermedia. 
+2. Lluvias de ceniza leves a moderadas en poblaciones cercanas. 
+3. Posibilidad de flujos piroclásticos y flujos de lodo de corto alcance. 
+Se hace especial énfasis en las siguientes recomendaciones: 
+1. Continuar con el radio de seguridad de 12 km, por lo que la permanencia en esa área no está permitida. 
+2. Mantener el tránsito controlado entre Santiago Xalitzintla y San Pedro Nexapa, vía Paso de Cortés. 
+3. A las autoridades de Protección Civil, mantener sus procedimientos preventivos, de acuerdo con sus planes operativos. 
+4. A la población, estar atenta a la información oficial que se difunda. 
+En caso de caída de ceniza, se hacen las siguientes recomendaciones: 
+Cubrir nariz y boca con un pañuelo húmedo o cubreboca. 
+Limpiar ojos y garganta con agua pura. 
+Utilizar lentes de armazón y evitar los lentes de contacto para reducir la irritación ocular. 
+Cerrar ventanas o cubrirlas y permanecer lo más posible dentro de la casa. 
+El monitoreo del Volcán Popocatépetl se realiza de forma continua las 24 horas. Cualquier cambio en la actividad será reportado oportunamente.
+</p>
+        <!-- Start WOWSlider.com -->
+<iframe src="visor/indexwow.html" style="width:960px;height:360px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+           <br>
+           </div>
+      </div>
+      </div>
+  
+<div>
+     <ul data-role="listview" data-theme="c" class="ui-listview ui-group-theme-c">
+     <li class="ui-first-child ui-last-child">
+     <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>Antiguedad y Tamaño</h2>
+     <p>Popocatepetl.</p>
+       </a>
+      </li>
+      <li class="ui-first-child ui-last-child ">
+       <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Localizacion</h2>
+       </a>
+      </li>
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Monitoreo</h2>
+       <p>Monitoreos recientes</p>
+       </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Medidas de prevencion</h2>
+       <p>Caida de ceniza,o Erupcion</p>
+       </a>
+     </li>
+      <li class="ui-first-child ui-last-child">
+        <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>OTROS Volcanes y su actividad</h2>
+        <p>Galeras (Colombia), Sakurajima (Japón)</p>
+        </a>
+       </li>
+    </ul>
+</div>
+<div data-role="footer" align="center" data-theme="c">
+  <div>
+    <img src="imagenes/112754.png" width="128" height="128">
+  </div>
+  <div>
+    <h4>Aplicacion Tres</h4>
+    <h4>Michell Jessamyn Toribio Confesor</h4>
+  </div>
+</div>
+</div>
+      
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="c">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+  <h1>Informacion</h1>
+  </div>
+  <div data-role="content" align="center">
+    <div>
+      <h2>El volcan Popocatépetl es un estratovolcán, y los estudios paleomagnéticos que se han hecho de él indican que tiene una edad aproximada de 730 000 años. Su altura es de 5500 msnm, es de forma cónica, tiene un diámetro de 25 km en su base y la cima es el corte elíptico de un cono y tiene una orientación noreste-suroeste. La distancia entre las paredes de su cráter varía entre los 660 y los 840 m.</h2>
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('antiguedad','','imagenes/antiguedad2.jpg',1)"><img src="imagenes/antiguedad1.jpg" width="480" height="402" id="antiguedad"></a> 
+    </div>
+   </div>
+ <div data-role="footer" data-theme="c">
+  <h4>Aplicacio Tres, MJTC</h4>
+ </div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="c">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+    <h1>Localizaciom</h1>
+  </div>
+  <div data-role="content" align="center">
+    <div>
+      <h2>El Popocatépetl esta ubicado en los estados de Morelos, Puebla (45 kilometros) y el Estado de México( a 55 kilometros). Al sur de la Sierra Volcánica Transversal que constituye la espina dorsal del AltiplanoMexicano.En el Estado de México colinda con los municipios: Tlamanalco, Amecameca, Atlauta y Ecatzingo.Con el estado de Morelos colinda específicamente con el municipio de Tetela del Volcán.Por la parte de Puebla colinda con Huejotzingo, San Salvador el Verde, Domingo Arenas, San Nicolás de los Ranchos y Tochimilco.</h2>
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','imagenes/ubicacion2.JPG',1)"><img src="imagenes/ubicacion1.jpg" width="580" height="308" id="Image10"></a>
+</div>
+  <div data-role="footer" data-theme="c">
+     <h4>Aplicacio Tres, MJTC</h4>
+  </div>
+ </div>
+</div>
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="c">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+    <h1>monitoreo Abril 12 11:00 h (Abril 12 16:00 GMT) </h1>
+  </div>
+  <div data-role="content" align="center">
+  <div>
+    <h2>La observación y vigilancia de un volcán activo usualmente se lleva a cabo utilizando técnicas de telemedición o telemetría mediante las cuales las señales medidas en las estaciones remotas se trasmiten por radio hacia un puesto central para su registro continuo e inmediata evaluación. 
+La red del Popocatépetl, actualmente en operación, consta de 12 estaciones remotas y una estación central de adquisición y procesamiento de datos localizada en las instalaciones del CENAPRED. Las estaciones de campo están instaladas en las faldas alrededor del volcán en altitudes entre los 2500 y 4313 m, estando la más cercana a 2 km de distancia del cráter. 
+El sistema consiste de 5 estaciones con sismómetros de periodo corto, 5 estaciones con sismómetros de banda ancha, 3 estaciones con inclinómetros, 3 estaciones hidrométricas y de detección de flujos y 4 estaciones con una cámara de video para la observación remota del volcán. Este conjunto de instrumentos sísmicos, geodésicos e hidrométricos genera más de 40 señales las cuales son trasmitidas continuamente, las 24 horas del día, hacia el CENAPRED y algunas también a la UNAM. Para llevar esta información desde cualquier sitio del volcán hacia el puesto central se implementó una compleja red de enlaces de telemetría a través de radio. Las señales de las estaciones más lejanas ubicadas en el lado este del volcán, se retransmiten a través de varias estaciones repetidoras (IIA e IIB). Para proteger a los equipos del medio ambiente, particularmente severo en las estaciones altas, y también proteger al personal encargado de su operación y mantenimiento, se construyeron casetas especiales de concreto y mampostería.
+</h2>
+        <img src="imagenes/ubicacion.jpg" width="664" height="454"> 
+        <h1><a href="http://www.cenapred.unam.mx/es/">Ver mas acerca de...</a></h1>
+    </div>
+  <div data-role="footer" data-theme="c">
+      <h4>Aplicacio Tres, MJTC</h4>
+  </div>
+ </div>
+</div>
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="c">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+    <h1>¿Qué hacer en caso de erupción volcánica?- ¿Que hacer en caso de caida de ceniza? </h1>
+  </div>
+  <div data-role="content" align="center">
+   <div>
+   <h2>¿Qué hacer en caso de erupción volcánica?</h2>
+    <p>Elaboremos juntos el plan familiar de emergencias. Es sencillo y puede salvar la vida de nuestra familia.
+   1.-Con los miembros de la familia preparemos el maletín para emergencias, con alimentos no perecederos, radio, foco, documentos personales,    medicinas     y protectores para cubrir la nariz.
+2.-Ubiquemos los albergues temporales, las rutas de evacuación y las zonas seguras en su comunidad.
+3.-Respetemos los sitios declarados peligrosos.
+4.-Consultemos a los Comités Municipales y Locales de Emergencias, sobre el sistema de evacuación y los centros de albergues para animales.
+5.-Establezcamos una ruta de evacuación, lejos de los ríos y quebradas y los posibles albergues.
+6.-Comuniquemos a las autoridades locales o al 9-1-1 cualquier anomalía u observación sobre el comportamiento del volcán.
+7.-No nos dejemos llevar por falsos rumores de personas no autorizadas.
+ </p>
+         <img src="imagenes/erupciondespues.jpg" width="405" height="427"> 
+         <h2>¿Que hacer en caso de caida de ceniza</h2>
+         <img src="imagenes/infocenizas.jpg">
+   </div>
+  </div>
+  <div data-role="footer" data-theme="c">
+     <h4>Aplicacio Tres, MJTC</h4>
+  </div>
+ </div>
+</div> 
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="c">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+    <h1>Otros volcanes y su actividad</h1>
+  </div>
+ <div data-role="content" align="center">
+  <div>
+    <h2>Volcán Galeras (colombia)</h2>
+    <p>Galeras es un volcán del sur de Colombia, situado a 9 km de la ciudad de San Juan de Pasto, capital del departamento deNariño. Es uno de los volcanes de mayor actividad en Colombia y el que cuenta con mayores reportes históricos, con reportes de erupciones importantes desde el siglo XVI.El Instituto Geológico de Mineración (Ingeominas) de Colombia recomendó este viernes la evacuación de cerca de 8 mil personas que viven en torno del volcán Galeras, en el sudoeste del país, después de decretar alerta naranja por el aumento de los movimientos sísmicos y de las emisiones de gases.
+"Este alerta (naranja) es del segundo nivel (más severo), atrás apenas del alerta rojo. Nuestro protocolo aplica el naranja ante de erupción probable en el plazo de días o semanas", dijo a la AFP Marta Calvache, vicedirectora del Ingeominas.
+    </p>
+    <img src="imagenes/volcancolombia.jpg" width="644" height="360">
+    
+    <h3>  Volcan Sakurajima (Japón)</h3>
+    <p>Durante los últimos días, el volcán ha estado en un estado muy activo otra vez, produciendo múltiples y relativamente fuertes explosiones vulcaniana que les el superior cráter área con bombas incandescentes y generan penachos de ceniza que se levantaron a la altitud de 15.000 pies (4,5 km).
+Parece ser que junto con el reciente aumento en las explosiones, mayor actividad ha vuelto otra vez al cráter Showa.
+El volcán sigue teniendo relativamente fuertes explosiones vulcaniana tipo a tasas variables entre 0-3 o más por día y otra vez sobre todo desde el cráter Showa (en el flanco del este superior)
+Una explosión esta tarde generó una columna de ceniza que se elevó a 15.000 pies (4,5 km) de altitud
+</p>
+     <img src="imagenes/volcanjapon.jpg" width="364" height="504">
+       <h2>Medidas de prevencion encaso de erupcion y caida de ceniza</h2>
+       <img src="imagenes/prevencionvolcanes1.jpg" width="364" height="504"> 
+       <img src="imagenes/cenizas1.png" width="364" height="504"> 
+   </div>
+  </div> 
+  <div data-role="footer" data-theme="c">
+     <h4>Aplicacio Tres, MJTC</h4>
+  </div>
+ </div>
+</div> 
+  
+</body>
+</html>
